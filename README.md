@@ -123,14 +123,6 @@ Click the "Search" button, and the dashboard will retrieve data using SerpAPI.
 ### Step 4: 
 Once the search is complete, the results will be processed by the AI model (Groq), which will extract relevant insights and display them in a structured format.
 
-### Configuration
-```json
-{
-    "serpapi_key": "your_serpapi_key",
-    "groq_api_key": "your_groq_api_key"
-}
-```
-
 ### Example Queries
 - `"Best data visualization tools for 2024"`
 - `"Top Python libraries for data analysis"`
@@ -162,7 +154,7 @@ npm run export-excel
 ### Step 1: Create the .env file
 In your project’s root directory (the same level as your app.py), create a new file called .env.
 Inside the .env file, store your API keys and other necessary environment variables in the following format:
-```bash
+```json
 SERPAPI_KEY=59595e5aa6
 GOOGLE_CREDS_PATH=E:/Pr/credentials.json
 GROQ_API_KEY=gsk_XMMKQ>
