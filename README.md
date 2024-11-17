@@ -47,56 +47,60 @@ streamlit run app.py
 | Data Processing | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
 | APIs | ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=google-sheets&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-412991?style=flat-square&logo=openai&logoColor=white) ![SerpAPI](https://img.shields.io/badge/SerpAPI-000000?style=flat-square&logo=serpapi&logoColor=white) |
 
-## 💻 Code Examples
+# 📖 Usage Guide: Data Search and Processing Tool
 
-📖 Usage Guide
-Step 1: Load Data
-From CSV: Upload your CSV file directly through the dashboard interface.
-From Google Sheets:
-Enter the URL of the Google Sheets document.
-Ensure your Google API credentials (credentials.json) are properly set up.
-Step 2: Perform Search Queries
-Use the dashboard to input search terms.
-The tool integrates with SerpAPI to fetch relevant data automatically.
-Step 3: AI-Powered Data Processing
-Extract meaningful insights from raw data using Groq's AI models.
-View summaries and export processed data for further use.
-Step 4: Export Results
-Download the output as a CSV file or sync it back to a Google Sheet.
-🔑 API Keys and Environment Variables
-To configure the application, you need to provide the following environment variables in a .env file:
+This tool simplifies the process of searching and processing data, allowing users to load datasets, perform search queries, and extract meaningful insights using AI-powered models.
 
-env
-Copy code
-GROQ_API_KEY=your_groq_api_key
-SERPAPI_KEY=your_serpapi_key
-GOOGLE_CREDS_PATH=path_to_credentials.json
-GROQ_API_KEY: Your API key for Groq's AI services.
-SERPAPI_KEY: Your API key for automated web scraping using SerpAPI.
-GOOGLE_CREDS_PATH: The file path to your Google API credentials.
-✨ Optional Features
-Data Visualization: Add charts and graphs to analyze trends and patterns.
-Advanced Filtering: Apply complex filters to narrow down results.
-Integration with Other APIs: Connect to additional services for extended functionality.
+---
 
-🤝 Contributing
-We welcome contributions! Here's how you can contribute:
+## 🚀 Features
+- **Data Loading:** Upload data from CSV or Google Sheets.
+- **Integrated Search:** Perform queries using SerpAPI for relevant data retrieval.
+- **AI-Powered Processing:** Extract summaries and insights using Groq's AI models.
+- **Export Options:** Save results as a CSV or sync back to Google Sheets.
 
-Fork the repository: Click the "Fork" button on GitHub.
-Create a branch:
-bash
-Copy code
-git checkout -b feature/FeatureName
-Make changes: Implement your feature or fix.
-Commit changes:
-bash
-Copy code
-git commit -m "Add FeatureName"
-Push to your branch:
-bash
-Copy code
-git push origin feature/FeatureName
-Open a pull request: Submit your changes for review.
+---
+
+## 🛠️ Steps to Use
+
+### Step 1: Load Data
+- **From CSV:** Upload your CSV file directly through the dashboard interface.
+- **From Google Sheets:**
+  1. Enter the URL of the Google Sheets document.
+  2. Ensure your [Google API credentials](https://developers.google.com/sheets/api/quickstart) (`credentials.json`) are properly set up.
+
+### Step 2: Perform Search Queries
+- Use the dashboard to input search terms.
+- The tool integrates with [SerpAPI](https://serpapi.com/) to automatically fetch relevant data.
+
+### Step 3: AI-Powered Data Processing
+- Extract meaningful insights from raw data using Groq's AI models.
+- View summaries and prepare the data for further analysis.
+
+### Step 4: Export Results
+- Download the output as a CSV file.
+- Sync the processed data back to a Google Sheet for easy sharing.
+
+---
+
+## 📂 Project Setup
+
+### Prerequisites
+- Python 3.7 or higher
+- Required libraries:
+  - `pandas`
+  - `google-auth`
+  - `google-auth-oauthlib`
+  - `google-auth-httplib2`
+  - `serpapi`
+  - `groq`
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
 
 
 ## 📁 Project Structure
