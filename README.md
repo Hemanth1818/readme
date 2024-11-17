@@ -18,6 +18,15 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 
 </div>
 
+## Table of Contents
+- [Setup & Installation](#setup--installation)
+- [Connecting Google Sheets](#connecting-google-sheets)
+- [Uploading CSV Files](#uploading-csv-files)
+- [Search Queries](#search-queries)
+- [AI Insights](#ai-insights)
+- [Exporting Results](#exporting-results)
+- [Troubleshooting](#troubleshooting)
+  
 ## 📜 Project Description
 
 The **AI Data Extraction Dashboard** is a cutting-edge tool designed to automate data extraction and analysis. It enables users to efficiently process data from multiple sources, including CSV files and Google Sheets, while integrating web scraping and AI-powered insights. This dashboard leverages advanced technologies to transform raw data into actionable intelligence in seconds, offering:
@@ -63,19 +72,6 @@ Once you’ve installed all dependencies and set up the project (refer to the Se
 streamlit run app.py```
 
 This will open the dashboard in your default web browser.
-
-# AI-Powered Data Dashboard
-
-A powerful dashboard that integrates with Google Sheets, processes CSV files, and provides AI-powered search capabilities using SerpAPI and Groq.
-
-## Table of Contents
-- [Setup & Installation](#setup--installation)
-- [Connecting Google Sheets](#connecting-google-sheets)
-- [Uploading CSV Files](#uploading-csv-files)
-- [Search Queries](#search-queries)
-- [AI Insights](#ai-insights)
-- [Exporting Results](#exporting-results)
-- [Troubleshooting](#troubleshooting)
 
 ## Setup & Installation
 ```bash
