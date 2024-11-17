@@ -19,12 +19,12 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 </div>
 
 ## Table of Contents
-- [Project Description](#-Project-Description)
-- [Setup Instructions](#-Setup-Instructions)
-- [Usage Guide](#-Usage-Guide)
-- [API Keys and Environment Variables](#API-Keys-and-Environment-Variables)
-- [Optional Features](#-Optional-Features)
-- [Quick Start](#-Quick-Start)
+- [Project Description](#-project-description)
+- [Setup Instructions](#-setup-instructions)
+- [Usage Guide](#-usage-guide)
+- [API Keys and Environment Variables](#-api-keys-and-environment-variables)
+- [Optional Features](#-optional-features)
+- [Quick Start](#-quick-start)
 - [Troubleshooting](#-troubleshooting)
 
 ## 🛠️ Tech Stack
