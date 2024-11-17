@@ -24,7 +24,7 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 - [Optional Features](#optional-features)
 - [Quick Start](#-quick-start)
 - [Troubleshooting](#troubleshooting)
-- [Video-Demo](#video-demo)
+- [Demo Video](#demo-video)
 
 ## 🛠️ Tech Stack
 
@@ -214,6 +214,11 @@ pip install -r requirements.txt
 # Run dashboard
 streamlit run app.py
 ```
+## 🎥 Demo Video
+
+Watch the demo video on Loom:
+
+[Watch the Loom Video](https://www.loom.com/share/your-loom-video-link)
 
 ## License
 -Mutyala Shashank
