@@ -23,9 +23,9 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 - [Setup Instructions](#-setup-instructions)
 - [Usage Guide](#-usage-guide)
 - [API Keys and Environment Variables](#-api-keys-and-environment-variables)
-- [Optional Features](#-optional-features)
+- [Optional Features](#optional-features)
 - [Quick Start](#-quick-start)
-- [Troubleshooting](#-troubleshooting)
+- [Troubleshooting](#troubleshooting)
 
 ## 🛠️ Tech Stack
 
