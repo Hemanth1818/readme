@@ -101,24 +101,31 @@ npm install
 
 To upload a CSV file:
 
-Step 1: Click on the "Upload CSV" button in the dashboard.
-Step 2: Select the file from your local directory.
-Step 3: The CSV will be uploaded, and the data will appear in the dashboard for further processing.
+### Step 1: 
+Click on the "Upload CSV" button in the dashboard.
+### Step 2: 
+Select the file from your local directory.
+### Step 3: 
+The CSV will be uploaded, and the data will appear in the dashboard for further processing.
 
 ## Search Queries
 
 The dashboard allows you to perform web searches using AI-powered search capabilities. To set up a search query:
 
-Step 1: Navigate to the search section of the dashboard.
+### Step 1: 
+Navigate to the search section of the dashboard.
 
-Step 2: Enter the search query in the text input field.
+### Step 2: 
+Enter the search query in the text input field.
 
 For example:
 
 If you want to search for a particular product or service, type something like: "Best data visualization tools for 2024".
 If you want to extract specific information, be more specific: "Top Python libraries for data analysis".
-Step 3: Click the "Search" button, and the dashboard will retrieve data using SerpAPI.
-Step 4: Once the search is complete, the results will be processed by the AI model (Groq), which will extract relevant insights and display them in a structured format.
+### Step 3: 
+Click the "Search" button, and the dashboard will retrieve data using SerpAPI.
+### Step 4: 
+Once the search is complete, the results will be processed by the AI model (Groq), which will extract relevant insights and display them in a structured format.
 
 ### Configuration
 ```json
