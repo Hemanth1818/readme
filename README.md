@@ -3,7 +3,7 @@
 # AI Data Extraction Dashboard
 
 <p align="center">
-  <img src="/api/placeholder/1200/300" alt="AI Data Extraction Dashboard Banner"/>
+  <img src="https://www.gooddata.com/img/blog/_1200x630/what-is-ai-analytics_cover.png.webp" alt="AI Data Extraction Dashboard Banner"/>
 </p>
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
@@ -217,4 +217,4 @@ streamlit run app.py
 ```
 
 ## License
-MIT
+-Mutyala Shashank
