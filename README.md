@@ -22,7 +22,7 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 - [Project Description](#-Project-Description)
 - [Setup Instructions](#-Setup-Instructions)
 - [Usage Guide](#-Usage-Guide)
-- [API Keys and Environment Variables](#-API-Keys-and-Environment-Variables)
+- [API Keys and Environment Variables](#API-Keys-and-Environment-Variables)
 - [Optional Features](#-Optional-Features)
 - [Quick Start](#-Quick-Start)
 - [Troubleshooting](#-troubleshooting)
@@ -139,7 +139,7 @@ Once the search is complete, the results will be processed by the AI model (Groq
 - CSV
 - Google Sheets (automatic sync)
 
-### API Keys and Environment Variables
+### 🔗 API Keys and Environment Variables
 ### Step 1: Create the .env file
 In your project’s root directory (the same level as your app.py), create a new file called .env.
 Inside the .env file, store your API keys and other necessary environment variables in the following format:
