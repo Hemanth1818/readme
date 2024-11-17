@@ -26,7 +26,16 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 - [AI Insights](#ai-insights)
 - [Exporting Results](#exporting-results)
 - [Troubleshooting](#troubleshooting)
-  
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| Frontend | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white) |
+| Backend | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| Data Processing | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
+| APIs | ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=google-sheets&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-412991?style=flat-square&logo=openai&logoColor=white) ![SerpAPI](https://img.shields.io/badge/SerpAPI-000000?style=flat-square&logo=serpapi&logoColor=white) |
+
 ## 📜 Project Description
 
 The **AI Data Extraction Dashboard** is a cutting-edge tool designed to automate data extraction and analysis. It enables users to efficiently process data from multiple sources, including CSV files and Google Sheets, while integrating web scraping and AI-powered insights. This dashboard leverages advanced technologies to transform raw data into actionable intelligence in seconds, offering:
@@ -155,9 +164,9 @@ npm run export-excel
 In your project’s root directory (the same level as your app.py), create a new file called .env.
 Inside the .env file, store your API keys and other necessary environment variables in the following format:
 ```bash
-SERPAPI_KEY=59595e5aa6
-GOOGLE_CREDS_PATH=E:/Pr/credentials.json
-GROQ_API_KEY=gsk_XMMKQ>
+SERPAPI_KEY=
+GOOGLE_CREDS_PATH=
+GROQ_API_KEY=
 ```
 ### Step 2: Access the variables in your Python code
 To access these environment variables in your Python code, you’ll need to use the python-dotenv package, which allows Python to load environment variables from the .env file.
@@ -192,16 +201,6 @@ print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
 - Google Sheets API access errors
 - Permission denied errors
 
-### Debug Mode
-```bash
-# Enable debug mode
-DEBUG=true npm start
-```
-
-## License
-
-MIT
-
 ## Contributing
 
 1. Fork the repository
@@ -233,14 +232,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🛠️ Tech Stack
 
-| Category | Technologies |
-|----------|-------------|
-| Frontend | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white) |
-| Backend | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| Data Processing | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
-| APIs | ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=google-sheets&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-412991?style=flat-square&logo=openai&logoColor=white) ![SerpAPI](https://img.shields.io/badge/SerpAPI-000000?style=flat-square&logo=serpapi&logoColor=white) |
 
 # 📖 Usage Guide: Data Search and Processing Tool
 
@@ -290,3 +282,6 @@ app/
     ├── rate_limit.py # Rate limiting
     └── validators.py # Input validation
 ```
+## License
+
+MIT
