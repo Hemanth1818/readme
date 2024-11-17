@@ -25,7 +25,7 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 - [API Keys and Environment Variables](#API-Keys-and-Environment-Variables)
 - [Optional Features](#Optional-Features)
 - [Quick Start](#Quick-Start)
-- [Troubleshooting](#troubleshooting)
+- [Troubleshooting](#⚡-troubleshooting)
 
 ## 🛠️ Tech Stack
 
@@ -137,7 +137,6 @@ Once the search is complete, the results will be processed by the AI model (Groq
 
 ### Supported Formats
 - CSV
-- Excel
 - Google Sheets (automatic sync)
 
 ### API Keys and Environment Variables
@@ -155,7 +154,7 @@ Install python-dotenv: Add python-dotenv to your requirements.txt file, or insta
 ```bash
 pip install python-dotenv
 ```
-Load the environment variables in your app.py or other Python files where you need the keys:
+Load the environment variables (Testing) in your app.py or other Python files where you need the keys:
 ```bash
 # Import the required libraries
 from dotenv import load_dotenv
@@ -178,7 +177,7 @@ print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
 - Custom sorting options
 - Export capabilities
 - Google Sheets synchronization
-- 
+  
 ## 🚀 Features
 
 - **Multi-Source Data Input**: CSV & Google Sheets integration
