@@ -24,7 +24,7 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 - [Optional Features](#optional-features)
 - [Quick Start](#-quick-start)
 - [Troubleshooting](#troubleshooting)
-- [Demo Video](#demo-video)
+- [Demo Video](#-demo-video)
 
 ## 🛠️ Tech Stack
 
