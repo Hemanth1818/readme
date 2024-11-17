@@ -19,12 +19,12 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 </div>
 
 ## Table of Contents
-- [Setup & Installation](#setup--installation)
-- [Connecting Google Sheets](#connecting-google-sheets)
-- [Uploading CSV Files](#uploading-csv-files)
-- [Search Queries](#search-queries)
-- [AI Insights](#ai-insights)
-- [Exporting Results](#exporting-results)
+- [Project Description](#Project-Description)
+- [Setup Instructions](#Setup-Instructions)
+- [Usage Guide](#Usage-Guide)
+- [API Keys and Environment Variables](#API-Keys-and-Environment-Variables)
+- [Optional Features](#Optional-Features)
+- [Quick Start](#Quick-Start)
 - [Troubleshooting](#troubleshooting)
 
 ## 🛠️ Tech Stack
@@ -48,7 +48,7 @@ The **AI Data Extraction Dashboard** is a cutting-edge tool designed to automate
 With a user-friendly interface built on Streamlit, this project empowers data analysts, researchers, and businesses to make informed decisions effortlessly.
 
 ---
-## 🛠️ Steps to Use
+## 🛠️ Setup Instructions
 
 ### Step 1: Load Data
 - **From CSV:** Upload your CSV file directly through the dashboard interface.
@@ -136,30 +136,12 @@ Once the search is complete, the results will be processed by the AI model (Groq
 - `"Best data visualization tools for 2024"`
 - `"Top Python libraries for data analysis"`
 
-## AI Insights
-
-### Features
-- Real-time data filtering
-- Custom sorting options
-- Export capabilities
-- Google Sheets synchronization
-
-## Exporting Results
-
 ### Supported Formats
 - CSV
 - Excel
 - Google Sheets (automatic sync)
 
-### Export Commands
-```bash
-# CSV Export
-npm run export-csv
-
-# Excel Export
-npm run export-excel
-```
-### Environment Setup
+### API Keys and Environment Variables
 ### Step 1: Create the .env file
 In your project’s root directory (the same level as your app.py), create a new file called .env.
 Inside the .env file, store your API keys and other necessary environment variables in the following format:
@@ -192,6 +174,18 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
 ```
 
+### Optional Features
+- Real-time data filtering
+- Custom sorting options
+- Export capabilities
+- Google Sheets synchronization
+- 
+## 🚀 Features
+
+- **Multi-Source Data Input**: CSV & Google Sheets integration
+- **AI-Powered Search**: Automated web scraping with SerpAPI
+- **Smart Processing**: LLM-based data extraction via Groq
+- **Export Ready**: Download results or sync with Google Sheets
 
 ## Troubleshooting
 
@@ -210,14 +204,6 @@ print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
 5. Create Pull Request
 
 ---
-Made with ♥️ using AI-powered insights
-
-## 🚀 Features
-
-- **Multi-Source Data Input**: CSV & Google Sheets integration
-- **AI-Powered Search**: Automated web scraping with SerpAPI
-- **Smart Processing**: LLM-based data extraction via Groq
-- **Export Ready**: Download results or sync with Google Sheets
 
 ## ⚡ Quick Start
 
@@ -232,56 +218,5 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-
-
-# 📖 Usage Guide: Data Search and Processing Tool
-
-This tool simplifies the process of searching and processing data, allowing users to load datasets, perform search queries, and extract meaningful insights using AI-powered models.
-
----
-
-## 🚀 Features
-- **Data Loading:** Upload data from CSV or Google Sheets.
-- **Integrated Search:** Perform queries using SerpAPI for relevant data retrieval.
-- **AI-Powered Processing:** Extract summaries and insights using Groq's AI models.
-- **Export Options:** Save results as a CSV or sync back to Google Sheets.
-
----
-
-## 📂 Project Setup
-
-### Prerequisites
-- Python 3.7 or higher
-- Required libraries:
-  - `pandas`
-  - `google-auth`
-  - `google-auth-oauthlib`
-  - `google-auth-httplib2`
-  - `serpapi`
-  - `groq`
-
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-
-
-
-## 📁 Project Structure
-
-```
-app/
-├── dashboard.py      # Main UI components
-├── data_manager.py   # Data handling & validation
-├── web_searcher.py   # Search implementation
-├── groq_processor.py # AI processing logic
-├── exporters.py      # Data export utilities
-└── utils/
-    ├── cache.py     # Caching mechanisms
-    ├── rate_limit.py # Rate limiting
-    └── validators.py # Input validation
-```
 ## License
-
 MIT
