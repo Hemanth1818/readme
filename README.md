@@ -21,7 +21,7 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 ## Table of Contents
 - [Project Description](#Project-Description)
 - [Setup Instructions](#Setup-Instructions)
-- [Usage Guide](#Usage-Guide)
+- [Usage Guide](#-Usage-Guide)
 - [API Keys and Environment Variables](#API-Keys-and-Environment-Variables)
 - [Optional Features](#Optional-Features)
 - [Quick Start](#⚡-Quick-Start)
