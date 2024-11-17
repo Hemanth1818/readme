@@ -133,8 +133,7 @@ Click the "Search" button, and the dashboard will retrieve data using SerpAPI.
 Once the search is complete, the results will be processed by the AI model (Groq), which will extract relevant insights and display them in a structured format.
 
 ### Example Queries
-- `"Best data visualization tools for 2024"`
-- `"Top Python libraries for data analysis"`
+- `"Identify the Country in which the Names called Ferrell LLC, Mckinney, Riley and Day, Hester Ltd , Holder-Sellers , Mayer Group are Located"`
 
 ### Supported Formats
 - CSV
