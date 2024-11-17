@@ -154,7 +154,7 @@ npm run export-excel
 ### Step 1: Create the .env file
 In your project’s root directory (the same level as your app.py), create a new file called .env.
 Inside the .env file, store your API keys and other necessary environment variables in the following format:
-```json
+```bash
 SERPAPI_KEY=59595e5aa6
 GOOGLE_CREDS_PATH=E:/Pr/credentials.json
 GROQ_API_KEY=gsk_XMMKQ>
