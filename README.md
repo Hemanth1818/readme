@@ -162,6 +162,39 @@ npm run export-csv
 # Excel Export
 npm run export-excel
 ```
+### Environment Setup
+### Step 1: Create the .env file
+In your project’s root directory (the same level as your app.py), create a new file called .env.
+Inside the .env file, store your API keys and other necessary environment variables in the following format:
+```bash
+SERPAPI_KEY=59595e5aa6
+GOOGLE_CREDS_PATH=E:/Pr/credentials.json
+GROQ_API_KEY=gsk_XMMKQ>
+```
+### Step 2: Access the variables in your Python code
+To access these environment variables in your Python code, you’ll need to use the python-dotenv package, which allows Python to load environment variables from the .env file.
+Install python-dotenv: Add python-dotenv to your requirements.txt file, or install it directly via pip:
+```bash
+pip install python-dotenv
+```
+Load the environment variables in your app.py or other Python files where you need the keys:
+```bash
+# Import the required libraries
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from the .env file
+load_dotenv()
+
+# Access the variables
+SERPAPI_KEY = os.getenv("SERPAPI_KEY")
+GOOGLE_CREDS_PATH = os.getenv("GOOGLE_CREDS_PATH")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+# Use these variables in your code
+print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
+```
+
 
 ## Troubleshooting
 
