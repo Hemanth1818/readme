@@ -77,9 +77,9 @@ The **AI Data Extraction Dashboard** is designed to be user-friendly and intuiti
 
 Once you’ve installed all dependencies and set up the project (refer to the Setup Instructions above), you can start the dashboard by running the following command:
 
-```bash`
-streamlit run app.py```
-
+```bash
+streamlit run app.py
+```
 This will open the dashboard in your default web browser.
 
 ## Setup & Installation
