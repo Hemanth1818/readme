@@ -14,8 +14,6 @@
 
 Automated data extraction powered by AI - From spreadsheets to intelligent insights in seconds.
 
-[View Demo](https://your-demo-link.com) · [Report Bug](issues/new) · [Request Feature](issues/new)
-
 </div>
 
 ## Table of Contents
@@ -26,6 +24,7 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 - [Optional Features](#optional-features)
 - [Quick Start](#-quick-start)
 - [Troubleshooting](#troubleshooting)
+- [Video-Demo](#video-demo)
 
 ## 🛠️ Tech Stack
 
